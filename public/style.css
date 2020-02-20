@@ -21,14 +21,39 @@
   left: 50%;
   transform: translate(-50%, -50%);
   background: #fff;
-  box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.12);
   border-radius: 1em;
 }
 .item-image-cont{
   position: relative;
   border-radius: 1em;
   overflow: hidden;
+  height: 100px;
+  width: 125%;
+  left: 0;
+  transform: translate(-25%, 12.5%);
+  margin-bottom: 1em;
 }
 .item-image{
   width: 100%;
+}
+
+.item-details-cont{
+  height: 50px;
+  position: relative;
+  width: 125%;
+  left: 0;
+  transform: translate(-25%, 12.5%);
+
+  
+}
+.item-details{
+  background: #333;
+  color: #fff;
+  padding: 0.25em;
+  border-radius: 1em;
+}
+
+.item-details p{
+  margin-left: 0.25em;
 }
